@@ -11,6 +11,7 @@
 		"lint:css": "wp-scripts lint-style",
 		"lint:js": "wp-scripts lint-js",
 		"start": "wp-scripts start",
+		"make-pot": "wp i18n make-pot --exclude=src/ . languages/tiny-block-testimonial.pot",
 		"packages-update": "wp-scripts packages-update"
 	},
 	"dependencies": {
