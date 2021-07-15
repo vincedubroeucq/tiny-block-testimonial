@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.tiny-block-testimonial-image-wrapper {
+    position: relative;
+    button {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+    }
+    .components-button.has-icon .dashicon {
+        margin: 0;
+    }
+    .components-button.has-icon.has-text {
+        justify-content: center;
+    }
+}
