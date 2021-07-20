@@ -1,8 +1,8 @@
 === Tiny Block Testimonial ===
 Contributors:      vincedubroeucq
 Tags:              block
-Tested up to:      5.7.0
-Stable tag:        0.1.0
+Tested up to:      5.7.2
+Stable tag:        1.0.0
 License:           GPL-3.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,11 +25,8 @@ Yes, this plugin only registers a single block for use in the WordPress Editor.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Find the block in the edit screen by typing /tiny or /testimonial on a new line. Just upload an image, fill in the quote, and the author name.
+2. The block supports text alignment and block alignment.
 
 == Changelog ==
 
