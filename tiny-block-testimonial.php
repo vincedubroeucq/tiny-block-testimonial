@@ -3,7 +3,7 @@
  * Plugin Name:       Tiny Block Testimonial
  * Plugin URI:        https://wordpress.org/plugins/tiny-block-testimonial
  * Description:       Declares a simple testimonial block.
- * Requires at least: 5.7
+ * Requires at least: 5.5
  * Requires PHP:      7.0
  * Version:           1.0.0
  * Author:            Vincent Dubroeucq
@@ -12,7 +12,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       tiny-block-testimonial
  * Domain Path:       /languages
- * @package           create-block
+ * @package           tiny-block-testimonial
  */
 
 /*
@@ -35,7 +35,7 @@ add_action( 'init', 'tiny_block_testimonial_load_textdomain' );
  * Load translations
  */
 function tiny_block_testimonial_load_textdomain(){
-    load_plugin_textdomain( 'tiny-block-testimonial', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+    load_plugin_textdomain( 'tiny-block-testimonial', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 
 
@@ -49,4 +49,5 @@ add_action( 'init', 'tiny_block_testimonial_block_init' );
  */
 function tiny_block_testimonial_block_init() {
 	register_block_type_from_metadata( __DIR__ );
+    wp_set_script_translations( 'tiny-block-testimonial', 'tiny-block-testimonial', plugin_dir_path( __FILE__ ) . '/languages' );
 }

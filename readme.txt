@@ -1,7 +1,7 @@
 === Tiny Block Testimonial ===
 Contributors:      vincedubroeucq
 Tags:              block
-Tested up to:      5.7.2
+Tested up to:      5.8.1
 Stable tag:        1.0.0
 License:           GPL-3.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-3.0.html
